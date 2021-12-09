@@ -1,15 +1,18 @@
 import React from "react";
+import useReco from "../../hooks/useReco";
 
-export default function Section1({}) {
+const Section1 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
+  const recommendation = useReco();
+
   return (
-    <section className="min-h-screen relative">
+    <section ref={forwardedRef} id="home" className="min-h-screen relative">
       <div className="absolute inset-0 bg-logo" />
       <div className="container mx-auto px-5">
         <h2 className="my-20 text-5xl font-bold text-center gray-1-color">
           COMING SOON!
         </h2>
         <div>
-          <h1 className="text-2xl md:text-5xl font-bold mb-2.5">
+          <h1 className="text-2xl md:text-5xl font-bold mb-4">
             <span>
               Artificial Intelligence <br />
               Powered{" "}
@@ -21,7 +24,7 @@ export default function Section1({}) {
           </h1>
           <p className="text-lg mb-5 md:mb-10">
             <span>Deliver highly personalized </span>
-            <span className="brand-color font-bold">Product </span>
+            <span className="brand-color font-bold">{`${recommendation} `}</span>
             <span>recommendations at scale.</span>
           </p>
           <form className="flex flex-col mb-10 md:mb-16 max-w-xl">
@@ -63,4 +66,6 @@ export default function Section1({}) {
       </div>
     </section>
   );
-}
+});
+
+export default Section1;

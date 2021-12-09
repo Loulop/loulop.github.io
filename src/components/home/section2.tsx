@@ -1,15 +1,19 @@
 import React from "react";
 
-export default function Section2() {
+const Section2 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
   return (
-    <section className="min-h-screen gray-6-bg-color flex flex-grow">
+    <section
+      ref={forwardedRef}
+      id="about-us"
+      className="min-h-screen gray-6-bg-color flex flex-grow"
+    >
       <div className="container mx-auto px-5 flex flex-col ">
         <div className="flex justify-center">
           <h1 className="mb-10 mt-20 md:my-20 text-3xl md:text-5xl text-center font-bold header">
             About Us
           </h1>
         </div>
-        <p className="text-center text-base md:text-lg md:px-12">
+        <p className="text-center text-base md:text-lg md:px-12 gray-1-color">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -27,4 +31,6 @@ export default function Section2() {
       </div>
     </section>
   );
-}
+});
+
+export default Section2;
