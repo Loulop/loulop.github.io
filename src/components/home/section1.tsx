@@ -7,7 +7,7 @@ const Section1 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
   return (
     <section ref={forwardedRef} id="home" className="min-h-screen relative">
       <div className="absolute inset-0 bg-logo" />
-      <div className="container mx-auto px-5">
+      <div className="container mx-auto px-5 mb-20">
         <h2 className="my-20 text-5xl font-bold text-center gray-1-color">
           COMING SOON!
         </h2>
@@ -24,7 +24,7 @@ const Section1 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
           </h1>
           <p className="text-lg mb-5 md:mb-10">
             <span>Deliver highly personalized </span>
-            <span className="brand-color font-bold">{`${recommendation} `}</span>
+            <span className="brand-color font-bold text-xl">{`${recommendation} `}</span>
             <span>recommendations at scale.</span>
           </p>
           <form className="flex flex-col mb-10 md:mb-16 max-w-xl">
