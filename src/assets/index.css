@@ -116,9 +116,9 @@ h1.header {
   background-image: url("./bg-logo.svg");
   background-position: top right;
   background-repeat: no-repeat;
-  min-height: 760px;
+  min-height: 900px;
 }
 
 section#home {
-  min-height: 760px;
+  min-height: 900px;
 }
