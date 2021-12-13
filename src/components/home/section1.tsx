@@ -5,7 +5,7 @@ const Section1 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
   const recommendation = useReco();
 
   return (
-    <section ref={forwardedRef} id="home" className="min-h-screen relative mb-20">
+    <section ref={forwardedRef} id="home" className="h-screen relative mb-20">
       <div className="absolute inset-0 bg-logo" />
       <div className="container mx-auto px-5">
         <h2 className="my-20 text-5xl font-bold text-center gray-1-color">

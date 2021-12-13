@@ -118,3 +118,7 @@ h1.header {
   background-repeat: no-repeat;
   min-height: 760px;
 }
+
+section#home {
+  min-height: 760px;
+}
