@@ -21,7 +21,7 @@ const Section2 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
           e-shops? Or do you operate a CMS product used by thousands of
           customers? 
           <br/>
-          Join us the journey, Give customers more of what they love :)
+          Join us the journey, and give customers more of what they love :)
         </p>
         <div className="flex-grow" />
         <footer className="flex items-center text-base font-bold gray-4-color">
