@@ -1,5 +1,6 @@
 import React from "react";
 import useReco from "../../hooks/useReco";
+import NotifyMe from "../shared/notifyMe";
 
 const Section1 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
   const recommendation = useReco();
@@ -27,27 +28,7 @@ const Section1 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
             <span className="brand-color font-bold text-xl">{`${recommendation} `}</span>
             <span>recommendations at scale.</span>
           </p>
-          <form className="flex flex-col mb-10 md:mb-16 max-w-xl">
-            <input
-              type="text"
-              placeholder="Enter your full name"
-              className="mb-3 border-gray-300 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            />
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="mb-3 border-gray-300 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            />
-            <div className="flex flex-row">
-              <div className="md:w-full" />
-              <button
-                className="w-full brand-bg-color text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-                type="submit"
-              >
-                NOTIFY ME
-              </button>
-            </div>
-          </form>
+          <NotifyMe />
         </div>
         <div>
           <button className="text-5xl mr-7 gray-1-color hover:text-gray-700">

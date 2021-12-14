@@ -16,7 +16,7 @@ export default function useReco() {
 
   React.useEffect(() => {
     const timeout = setTimeout(() => {
-      let index = RECOMMENDATIONS.indexOf(data)
+      let index = RECOMMENDATIONS.indexOf(data);
       setData(RECOMMENDATIONS[(index + 1) % RECOMMENDATIONS.length]);
     }, 3000);
 
