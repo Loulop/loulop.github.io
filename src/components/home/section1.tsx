@@ -31,18 +31,32 @@ const Section1 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
           <NotifyMe />
         </div>
         <div>
-          <button className="text-5xl mr-7 gray-1-color hover:text-gray-700">
+          <a
+            href="https://github.com/loulop"
+            target="_blank"
+            className="text-5xl mr-7 gray-1-color hover:text-gray-700"
+          >
             <span className="mdi mdi-github"></span>
-          </button>
-          <button className="text-5xl mr-7 gray-1-color hover:text-gray-700">
+          </a>
+          <a
+            target="_blank"
+            className="text-5xl mr-7 gray-1-color hover:text-gray-700"
+          >
             <span className="mdi mdi-twitter"></span>
-          </button>
-          <button className="text-5xl mr-7 gray-1-color hover:text-gray-700">
+          </a>
+          <a
+            href="https://www.instagram.com/loulop.io/"
+            target="_blank"
+            className="text-5xl mr-7 gray-1-color hover:text-gray-700"
+          >
             <span className="mdi mdi-instagram"></span>
-          </button>
-          <button className="text-5xl mr-7 gray-1-color hover:text-gray-700">
+          </a>
+          <a
+            href="mailto:amoallim15@gmail.com"
+            className="text-5xl mr-7 gray-1-color hover:text-gray-700"
+          >
             <span className="mdi mdi-email"></span>
-          </button>
+          </a>
         </div>
       </div>
     </section>

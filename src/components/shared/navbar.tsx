@@ -29,7 +29,12 @@ const Navbar: FC<Props> = ({ activeNavId }) => {
         </div>
         <ul className="flex flex-row items-center font-bold">
           <li className="px-2 md:px-4">
-            <a href="#home" className={activeNavId === "home" ? "active" : ""}>
+            <a
+              href="#home"
+              className={
+                activeNavId === "home" || activeNavId === null ? "active" : ""
+              }
+            >
               Home
             </a>
           </li>
