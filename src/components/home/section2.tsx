@@ -14,15 +14,14 @@ const Section2 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
           </h1>
         </div>
         <p className="text-center text-base md:text-lg md:px-12 gray-1-color">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Our Mission is to bring highest quality recommender as a service to
+          our clients though a simple to dashboard and API. We aspire to provide
+          AI powered recommendation service that scales up to millions of users
+          and products. Do you manage a small digital agency that runs several
+          e-shops? Or do you operate a CMS product used by thousands of
+          customers? 
+          <br/>
+          Join us the journey, Give customers more of what they love :)
         </p>
         <div className="flex-grow" />
         <footer className="flex items-center text-base font-bold gray-4-color">
