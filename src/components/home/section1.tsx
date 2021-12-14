@@ -32,19 +32,21 @@ const Section1 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
         </div>
         <div>
           <a
+            rel="noreferrer"
             href="https://github.com/loulop"
             target="_blank"
             className="text-5xl mr-7 gray-1-color hover:text-gray-700"
           >
             <span className="mdi mdi-github"></span>
           </a>
-          <a
+          {/*<a
             target="_blank"
             className="text-5xl mr-7 gray-1-color hover:text-gray-700"
           >
             <span className="mdi mdi-twitter"></span>
-          </a>
+          </a>*/}
           <a
+            rel="noreferrer"
             href="https://www.instagram.com/loulop.io/"
             target="_blank"
             className="text-5xl mr-7 gray-1-color hover:text-gray-700"
@@ -52,6 +54,7 @@ const Section1 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
             <span className="mdi mdi-instagram"></span>
           </a>
           <a
+            rel="noreferrer"
             href="mailto:amoallim15@gmail.com"
             className="text-5xl mr-7 gray-1-color hover:text-gray-700"
           >
