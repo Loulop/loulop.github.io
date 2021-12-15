@@ -122,3 +122,30 @@ h1.header {
 section#home {
   min-height: 900px;
 }
+
+.mdi-set,
+.mdi:before {
+  display: inline-block;
+  font: normal normal normal 24px/1 "Material Design Icons";
+  font-size: inherit;
+  text-rendering: auto;
+  line-height: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mdi-github:before {
+  content: "\F02A4";
+}
+
+.mdi-instagram:before {
+  content: "\F02FE";
+}
+
+.mdi-email:before {
+  content: "\F01EE";
+}
+
+.mdi-twitter::before {
+  content: "\F0544";
+}

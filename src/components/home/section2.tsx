@@ -19,8 +19,8 @@ const Section2 = React.forwardRef<HTMLElement>((props, forwardedRef) => {
           AI powered recommendation service that scales up to millions of users
           and products. Do you manage a small digital agency that runs several
           e-shops? Or do you operate a CMS product used by thousands of
-          customers? 
-          <br/>
+          customers?
+          <br />
           Join us the journey, and give customers more of what they love :)
         </p>
         <div className="flex-grow" />
