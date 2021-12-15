@@ -1,28 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.71bc04d9.chunk.css",
-    "main.js": "/static/js/main.b4cfdd5a.chunk.js",
-    "main.js.map": "/static/js/main.b4cfdd5a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e4ef8fda.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e4ef8fda.js.map",
-    "static/css/2.bb51ca1d.chunk.css": "/static/css/2.bb51ca1d.chunk.css",
-    "static/js/2.2c76a314.chunk.js": "/static/js/2.2c76a314.chunk.js",
-    "static/js/2.2c76a314.chunk.js.map": "/static/js/2.2c76a314.chunk.js.map",
-    "static/js/3.1e96ece9.chunk.js": "/static/js/3.1e96ece9.chunk.js",
-    "static/js/3.1e96ece9.chunk.js.map": "/static/js/3.1e96ece9.chunk.js.map",
+    "main.css": "/static/css/main.316527e5.chunk.css",
+    "main.js": "/static/js/main.1093c52e.chunk.js",
+    "main.js.map": "/static/js/main.1093c52e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b20fc9aa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b20fc9aa.js.map",
+    "static/js/2.7010442e.chunk.js": "/static/js/2.7010442e.chunk.js",
+    "static/js/2.7010442e.chunk.js.map": "/static/js/2.7010442e.chunk.js.map",
+    "static/js/3.19f28675.chunk.js": "/static/js/3.19f28675.chunk.js",
+    "static/js/3.19f28675.chunk.js.map": "/static/js/3.19f28675.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.bb51ca1d.chunk.css.map": "/static/css/2.bb51ca1d.chunk.css.map",
-    "static/css/main.71bc04d9.chunk.css.map": "/static/css/main.71bc04d9.chunk.css.map",
-    "static/js/2.2c76a314.chunk.js.LICENSE.txt": "/static/js/2.2c76a314.chunk.js.LICENSE.txt",
+    "static/css/main.316527e5.chunk.css.map": "/static/css/main.316527e5.chunk.css.map",
+    "static/js/2.7010442e.chunk.js.LICENSE.txt": "/static/js/2.7010442e.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/bg-logo.a2cc642b.svg",
-    "static/media/logo.e58caab5.svg": "/static/media/logo.e58caab5.svg",
-    "static/media/materialdesignicons.min.css": "/static/media/materialdesignicons-webfont.e044ed23.eot"
+    "static/media/logo.e58caab5.svg": "/static/media/logo.e58caab5.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e4ef8fda.js",
-    "static/css/2.bb51ca1d.chunk.css",
-    "static/js/2.2c76a314.chunk.js",
-    "static/css/main.71bc04d9.chunk.css",
-    "static/js/main.b4cfdd5a.chunk.js"
+    "static/js/runtime-main.b20fc9aa.js",
+    "static/js/2.7010442e.chunk.js",
+    "static/css/main.316527e5.chunk.css",
+    "static/js/main.1093c52e.chunk.js"
   ]
 }
